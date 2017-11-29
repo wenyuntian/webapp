@@ -1,0 +1,49 @@
+.order-li {
+  border-top: 1px solid #e0e0e0;
+  padding: 8px 0;
+  width: 100%;
+  display: flex;
+
+  .order-item {
+    flex: 3;
+    display: flex;
+
+    .order-img {
+      flex: 1;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .order-detail {
+      margin-left: 8px;
+      flex: 2
+    }
+  }
+  .comment-button {
+    flex: 1;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    input {
+      color: #fff;
+      border: none;
+      background-color: #fd001f;
+      width: 66px;
+      height: 32px;
+      
+    }
+
+    .active {
+      background-color: #e0e0e0;
+      color: #9e9e9e;
+    }
+  }
+}
+
+.order-comment {
+  width: 100%;
+}

@@ -1,0 +1,42 @@
+{
+  "name": "webapp",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3001",
+  "dependencies": {
+    "antd": "^2.13.6",
+    "axios": "^0.17.1",
+    "babel-plugin-import": "^1.6.2",
+    "react": "^16.1.0",
+    "react-alert": "^2.4.0",
+    "react-app-rewired": "^1.3.2",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.14",
+    "react-swipe": "^5.1.0",
+    "redux": "^3.7.2",
+    "redux-promise": "^0.5.3",
+    "redux-thunk": "^2.2.0",
+    "swipe-js-iso": "^2.0.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "keywords": [
+    "大众点评",
+    "react"
+  ],
+  "author": "dayday",
+  "license": "ISC"
+}
