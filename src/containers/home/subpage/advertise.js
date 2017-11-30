@@ -28,7 +28,7 @@ export default class Advertise extends Component {
         <ul className="advertise-list">
           {this.state.data.length ? this.state.data.map((item, index) => (
             <li className="advertise-item" key={index}>
-              <a href="#">
+              <a href="">
                 <img src={item.img} alt=""/>
               </a>
             </li>
